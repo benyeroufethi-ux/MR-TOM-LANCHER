@@ -1,8 +1,18 @@
 {
-  "status": "online",
-  "ip": "Ultracity.centnodes.cloud",
-  "port": 40040,
-  "name": "UltraCity Roleplay",
-  "client_version": "1.0",
-  "cache_url": "https://example.com/cache.zip"
+  "status": true,
+  "version": "0.0.16",
+  "url_apk": "https://raw.githubusercontent.com/benyeroufethi-ux/MR-TOM-LANCHER/main/",
+  "cache": {
+    "url": "https://raw.githubusercontent.com/benyeroufethi-ux/MR-TOM-LANCHER/main/",
+    "size": 0
+  },
+  "servers": [
+    {
+      "name": "UltraCity Roleplay",
+      "ip": "Ultracity.centnodes.cloud",
+      "port": 40040,
+      "online": 1,
+      "max_players": 100
+    }
+  ]
 }
