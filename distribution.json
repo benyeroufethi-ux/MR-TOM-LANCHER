@@ -1,0 +1,42 @@
+{
+    "cache": [],
+    "cacheMode": [],
+    "projectName": "UltraCity RP",
+    "packageName": "com.touch.mobile.dark",
+    "versionHash": "a1b2c3d4",
+    "rss": "https://raw.githubusercontent.com/benyeroufethi-ux/MR-TOM-LANCHER/main/distribution.json",
+    "cdnCache": "https://raw.githubusercontent.com/benyeroufethi-ux/MR-TOM-LANCHER/main/",
+    "cdnLauncher": "https://raw.githubusercontent.com/benyeroufethi-ux/MR-TOM-LANCHER/main/",
+    "filesContinue": [
+        "settings.ini",
+        "gta_sa.set",
+        "svconfig.ini"
+    ],
+    "launcher": {
+        "appVersion": "0.0.39",
+        "name": "app-release.apk",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+        "mtime": 1700000000,
+        "bytes": 26000000
+    },
+    "servers": [
+        {
+            "id": 1,
+            "show": true,
+            "version": "1.0",
+            "icon": "https://raw.githubusercontent.com/benyeroufethi-ux/MR-TOM-LANCHER/main/assets/images/logo.png",
+            "events": [
+                {
+                    "title": "UltraCity",
+                    "style": "red"
+                }
+            ],
+            "slot": 100,
+            "bonus": true,
+            "name": "UltraCity Roleplay",
+            "description": "SA-MP Mobile Server",
+            "address": "Ultracity.centnodes.cloud:40040",
+            "sampVersion": "0.3.7"
+        }
+    ]
+}
