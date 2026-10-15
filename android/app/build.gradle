@@ -145,9 +145,9 @@ android {
         multiDexEnabled true;
         buildConfigField "boolean", "IS_NEW_ARCHITECTURE_ENABLED", isNewArchitectureEnabled().toString()
         // vectorDrawables.useSupportLibrary = true
-       ndk {
-           abiFilters "armeabi-v7a"
-       }
+        ndk {
+            abiFilters "armeabi-v7a", "arm64-v8a", "x86", "x86_64"
+        }
 
         if (isNewArchitectureEnabled()) {
             // We configure the CMake build only if you decide to opt-in for the New Architecture.
